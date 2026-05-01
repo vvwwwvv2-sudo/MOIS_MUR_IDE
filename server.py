@@ -1,4 +1,3 @@
-# server.py (исправленная версия)
 import socket
 import threading
 import json
