@@ -1,4 +1,3 @@
-# client.py (исправленный – можно переподключаться без перезапуска)
 import socket
 import threading
 import json
