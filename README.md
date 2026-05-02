@@ -10,7 +10,7 @@
 
 bash
 pip install pymurapi opencv-python
-Файл server.py (исправленная версия)
+Файл server.py 
 
 На клиентской стороне (компьютер оператора)
 Установленный Python 3.7+
@@ -19,7 +19,7 @@ pip install pymurapi opencv-python
 
 bash
 pip install pillow pillow
-Файл client.py (исправленная версия с клавиатурой)
+Файл client.py 
 
 2. Запуск сервера
 На борту АНПА выполните:
