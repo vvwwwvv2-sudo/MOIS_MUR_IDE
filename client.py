@@ -114,12 +114,12 @@ class AUVControlGUI:
         self.key_motor_map = {
             'w': [50, 50, 0, 0, 0],    # forward
             'a': [0, 0, 0, 0, 50],     # left
-            's': [0, 0, -50, -50, 0],  # down
+            'z': [0, 0, -50, -50, 0],  # down
             'd': [0, 0, 0, 0, -50],    # right
             'q': [50, -50, 0, 0, 0],   # rotate left
             'e': [-50, 50, 0, 0, 0],    # rotate right
-            'x': [0, 0, 50, 50, 0]  # up
-
+            'x': [0, 0, 50, 50, 0],  # up
+            's': [-50, -50, 0, 0, 0]    # forward
         }
 
         # Bind keyboard events
